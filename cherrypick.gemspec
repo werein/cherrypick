@@ -19,6 +19,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.2.0"
 
+  s.add_development_dependency "minitest-spec-rails"
+  s.add_development_dependency "mocha"
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "responders", "~> 2.0"
 end
