@@ -1,4 +1,5 @@
 require "cherrypick/engine"
+require "cherrypick/services/locales"
 
 module Cherrypick
 
