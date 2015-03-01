@@ -7,11 +7,11 @@ require "cherrypick/version"
 Gem::Specification.new do |s|
   s.name        = "cherrypick"
   s.version     = Cherrypick::VERSION
-  s.authors     = ["Jiri Kolarik"]
+  s.authors     = ["We're in s.r.o", "Jiri Kolarik"]
   s.email       = ["jiri.kolarik@wereinhq.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Cherrypick."
-  s.description = "TODO: Description of Cherrypick."
+  s.homepage    = "https://github.com/werein/cherrypick"
+  s.summary     = "Cherrypick what do you need for your app and don't write it again."
+  s.description = "Set of mixins, services and helpers for Rails as an Engine."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
