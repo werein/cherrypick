@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Cherrypick::VERSION
   s.authors     = ["We're in s.r.o", "Jiri Kolarik"]
   s.email       = ["jiri.kolarik@wereinhq.com"]
-  s.homepage    = "https://github.com/werein/cherrypick"
+  s.homepage    = "https://wereinhq.com/guides/cherrypick"
   s.summary     = "Cherrypick what do you need for your app and don't write it again."
   s.description = "Set of mixins, services and helpers for Rails as an Engine."
   s.license     = "MIT"
