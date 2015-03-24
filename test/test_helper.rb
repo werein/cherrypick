@@ -1,5 +1,6 @@
 require "codeclimate-test-reporter"
 CodeClimate::TestReporter.start
+SimpleCov.start
 
 # Configure Rails Environment
 ENV["RAILS_ENV"] = "test"
